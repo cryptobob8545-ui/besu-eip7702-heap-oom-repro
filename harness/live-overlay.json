@@ -1,0 +1,6 @@
+{
+  "Replace": {
+    "/tmp/vec-besu-32g-20261022/go-ethereum/cmd/devp2p/internal/ethtest/fef_s122_live_rlpx_test.go": "/tmp/vec-besu-32g-20261022/vec078-15x8/live_rlpx_test.go",
+    "/tmp/vec-besu-32g-20261022/go-ethereum/cmd/devp2p/internal/ethtest/fef_s122_besu_pooled_live_rlpx_test.go": "/tmp/vec-besu-32g-20261022/vec078-active-peer/besu_pooled_live_rlpx_test.go"
+  }
+}

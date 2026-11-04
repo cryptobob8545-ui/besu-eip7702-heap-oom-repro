@@ -1,0 +1,260 @@
+Listening for transport dt_socket at address: 43581
+Setting logging level to INFO
+[2m2026-11-03 22:57:51.699+0000[m[2m | [m[2mmain[m[2m | [m[32mINFO [m[2m | [m[2mBesu[m[2m | [m[32mStarting Besu
+[m[2m2026-11-03 22:57:52.148+0000[m[2m | [m[2mmain[m[2m | [m[33mWARN [m[2m | [m[2mBesu[m[2m | [m[33m--graphql-http-host has been ignored because --graphql-http-enabled was not defined on the command line.
+[m[2m2026-11-03 22:57:52.746+0000[m[2m | [m[2mmain[m[2m | [m[32mINFO [m[2m | [m[2mBesu[m[2m | [m[32mRPC HTTP JSON-RPC config: JsonRpcConfiguration{enabled=true, port=8545, host=0.0.0.0, corsAllowedDomains=[*], hostsAllowlist=[*], rpcApis=[ADMIN, ETH, NET, DEBUG, TXPOOL, ENGINE, TRACE, WEB3], authenticationEnabled=false, authenticationCredentialsFile=null, authenticationPublicKeyFile=null, tlsConfiguration=Optional.empty, httpTimeoutSec=30, maxActiveConnections=300, maxBatchSize=1024}
+[m[2m2026-11-03 22:57:52.751+0000[m[2m | [m[2mmain[m[2m | [m[32mINFO [m[2m | [m[2mBesu[m[2m | [m[32mEngine JSON-RPC config: JsonRpcConfiguration{enabled=true, port=8551, host=0.0.0.0, corsAllowedDomains=[*], hostsAllowlist=[*], rpcApis=[ENGINE, ETH], authenticationEnabled=true, authenticationCredentialsFile=null, authenticationPublicKeyFile=/jwt/jwtsecret, tlsConfiguration=Optional.empty, httpTimeoutSec=30, maxActiveConnections=300, maxBatchSize=1024}
+[m[2m2026-11-03 22:57:52.761+0000[m[2m | [m[2mmain[m[2m | [m[32mINFO [m[2m | [m[2mBesu[m[2m | [m[32mBonsai cross-block cache enabled for BAL prefetch reading
+[m[2m2026-11-03 22:57:52.762+0000[m[2m | [m[2mmain[m[2m | [m[33mWARN [m[2m | [m[2mBesu[m[2m | [m[33mForcing --bonsai-limit-trie-logs-enabled=false, since it cannot be enabled with --sync-mode=FULL and --data-storage-format=BONSAI.
+[m[2m2026-11-03 22:57:52.763+0000[m[2m | [m[2mmain[m[2m | [m[32mINFO [m[2m | [m[2mBesu[m[2m | [m[32mConnecting to 0 static nodes.
+[m[2m2026-11-03 22:57:52.858+0000[m[2m | [m[2mmain[m[2m | [m[32mINFO [m[2m | [m[2mBesu[m[2m | [m[32m
+####################################################################################################
+#                                                                                                  #
+# Besu version 26.11.0                                                                             #
+#                                                                                                  #
+# Configuration:                                                                                   #
+# Network: Custom genesis file                                                                     #
+# /network-configs/genesis.json                                                                    #
+# Network Id: 315179                                                                               #
+# Data storage: Bonsai                                                                             #
+# RocksDB max open files: 1024 (derived from available resources)                                  #
+# Sync mode: Full                                                                                  #
+# Sync min peers: 5                                                                                #
+# RPC HTTP APIs: ADMIN,ETH,NET,DEBUG,TXPOOL,ENGINE,TRACE,WEB3                                      #
+# RPC HTTP port: 8545                                                                              #
+# Engine APIs: ENGINE,ETH                                                                          #
+# Engine port: 8551                                                                                #
+# Engine JWT: /jwt/jwtsecret                                                                       #
+# Using LAYERED transaction pool implementation                                                    #
+# Using STACKED worldstate update mode                                                             #
+# Opcode optimizations enabled                                                                     #
+# Parallel transaction processing enabled                                                          #
+# BAL pruning enabled (retained BALs: 457568)                                                      #
+#                                                                                                  #
+# Host:                                                                                            #
+# Java: openjdk-java-25                                                                            #
+# Maximum heap size: 7.84 GB                                                                       #
+# OS: linux-x86_64                                                                                 #
+# glibc: 2.39                                                                                      #
+# jemalloc: 5.3.0-0-g54eaed1d8b56b1aa528be3bdd1877e59c56fa90c                                      #
+# Total memory: 31.34 GB                                                                           #
+# CPU cores: 8                                                                                     #
+#                                                                                                  #
+# Plugin Registration Summary:                                                                     #
+# No plugins have been registered.                                                                 #
+# TOTAL = 0 of 0 plugins successfully registered.                                                  #
+#                                                                                                  #
+####################################################################################################
+[m[2m2026-11-03 22:57:52.859+0000[m[2m | [m[2mmain[m[2m | [m[32mINFO [m[2m | [m[2mBesu[m[2m | [m[32mSecurity Module: localfile
+[m[2m2026-11-03 22:57:52.860+0000[m[2m | [m[2mmain[m[2m | [m[32mINFO [m[2m | [m[2mVersionMetadata[m[2m | [m[32mLookup version metadata file in data directory: /data/besu/execution-data
+[m[2m2026-11-03 22:57:52.860+0000[m[2m | [m[2mmain[m[2m | [m[32mINFO [m[2m | [m[2mVersionMetadata[m[2m | [m[32mData directory /data/besu/execution-data does not exist - creating it
+[m[2m2026-11-03 22:57:52.861+0000[m[2m | [m[2mmain[m[2m | [m[32mINFO [m[2m | [m[2mVersionMetadata[m[2m | [m[32mNo version data detected. Writing Besu version 26.11.0 to metadata file
+[m[2m2026-11-03 22:57:52.907+0000[m[2m | [m[2mmain[m[2m | [m[32mINFO [m[2m | [m[2mBesu[m[2m | [m[32mUsing the native implementation of alt bn128
+[m[2m2026-11-03 22:57:52.908+0000[m[2m | [m[2mmain[m[2m | [m[32mINFO [m[2m | [m[2mBesu[m[2m | [m[32mUsing the Java implementation of modexp
+[m[2m2026-11-03 22:57:52.923+0000[m[2m | [m[2mmain[m[2m | [m[32mINFO [m[2m | [m[2mBesu[m[2m | [m[32mUsing the native implementation of the signature algorithm
+[m[2m2026-11-03 22:57:52.926+0000[m[2m | [m[2mmain[m[2m | [m[32mINFO [m[2m | [m[2mBesu[m[2m | [m[32mUsing the native implementation of the blake2bf algorithm
+[m[2m2026-11-03 22:57:53.040+0000[m[2m | [m[2mmain[m[2m | [m[32mINFO [m[2m | [m[2mBesu[m[2m | [m[32mUsing the native BoringSSL implementation of p256verify
+[m[2m2026-11-03 22:57:53.047+0000[m[2m | [m[2mmain[m[2m | [m[32mINFO [m[2m | [m[2mKZGPointEvalPrecompiledContract[m[2m | [m[32mLoading network trusted setup from classpath resource /kzg-trusted-setups/mainnet.txt
+[m[2m2026-11-03 22:57:55.497+0000[m[2m | [m[2mmain[m[2m | [m[32mINFO [m[2m | [m[2mKeyPairUtil[m[2m | [m[32mGenerated new secp256k1 public key 0x069d767922d4bd55ca8df59f0b003c0163432a91f7a02a41893db783699ca0fc29c99b97ff9e26d5a4bbf1ab36f1264b7375a11cde02d9d565b66b7c888dd36d and stored it to /data/besu/execution-data/key
+[m[2m2026-11-03 22:57:55.642+0000[m[2m | [m[2mmain[m[2m | [m[32mINFO [m[2m | [m[2mProtocolScheduleBuilder[m[2m | [m[32mProtocol schedule created with milestones: [BPO2:0]
+[m[2m2026-11-03 22:57:55.644+0000[m[2m | [m[2mmain[m[2m | [m[32mINFO [m[2m | [m[2mRocksDBKeyValueStorageFactory[m[2m | [m[32mNo existing database at /data/besu/execution-data. Using default metadata for new db versionedStorageFormat=BaseVersionedStorageFormat{format=BONSAI, version=4}
+[m[2m2026-11-03 22:57:56.108+0000[m[2m | [m[2mmain[m[2m | [m[32mINFO [m[2m | [m[2mVersionedFlatDbCacheManager[m[2m | [m[32mCache maintenance will trigger asynchronously after 1000 pending tasks
+[m[2m2026-11-03 22:57:56.114+0000[m[2m | [m[2mmain[m[2m | [m[32mINFO [m[2m | [m[2mFlatDbStrategyProvider[m[2m | [m[32mFlat db mode found FULL
+[m[2m2026-11-03 22:57:56.116+0000[m[2m | [m[2mmain[m[2m | [m[32mINFO [m[2m | [m[2mFlatDbStrategyProvider[m[2m | [m[32mDB mode with code stored using code hash enabled = true
+[m[2m2026-11-03 22:57:56.130+0000[m[2m | [m[2mmain[m[2m | [m[32mINFO [m[2m | [m[2mFlatDbStrategyProvider[m[2m | [m[32mFlat db mode found FULL
+[m[2m2026-11-03 22:57:56.130+0000[m[2m | [m[2mmain[m[2m | [m[32mINFO [m[2m | [m[2mFlatDbStrategyProvider[m[2m | [m[32mDB mode with code stored using code hash enabled = true
+[m[2m2026-11-03 22:57:56.361+0000[m[2m | [m[2mmain[m[2m | [m[32mINFO [m[2m | [m[2mBesuControllerBuilder[m[2m | [m[32mAdding ChainDataPruner to observe block added events
+[m[2m2026-11-03 22:57:56.363+0000[m[2m | [m[2mmain[m[2m | [m[32mINFO [m[2m | [m[2mBesuControllerBuilder[m[2m | [m[32mBAL pruning enabled | BALs retained: 457568 | Frequency: 256
+[m[2m2026-11-03 22:57:56.393+0000[m[2m | [m[2mmain[m[2m | [m[32mINFO [m[2m | [m[2mTransactionPoolFactory[m[2m | [m[32mEnabling transaction pool
+[m[2m2026-11-03 22:57:56.409+0000[m[2m | [m[2mmain[m[2m | [m[32mINFO [m[2m | [m[2mEthPeers[m[2m | [m[32mUpdating the default best peer comparator
+[m[2m2026-11-03 22:57:56.417+0000[m[2m | [m[2mmain[m[2m | [m[32mINFO [m[2m | [m[2mBesuControllerBuilder[m[2m | [m[32mTTD difficulty is present, creating initial sync for PoS
+[m[2m2026-11-03 22:57:56.451+0000[m[2m | [m[2mmain[m[2m | [m[32mINFO [m[2m | [m[2mRunnerBuilder[m[2m | [m[32mResolved 0 bootnodes.
+[m[2m2026-11-03 22:57:56.465+0000[m[2m | [m[2mmain[m[2m | [m[32mINFO [m[2m | [m[2mRunnerBuilder[m[2m | [m[32mDetecting NAT service.
+[m[2m2026-11-03 22:57:56.488+0000[m[2m | [m[2mmain[m[2m | [m[32mINFO [m[2m | [m[2mCompositePeerDiscoveryAgentFactory[m[2m | [m[32mPeer discovery mode: V5 (requested=V5, V4=false, V5=true)
+[m[2m2026-11-03 22:57:56.727+0000[m[2m | [m[2mmain[m[2m | [m[32mINFO [m[2m | [m[2mRunner[m[2m | [m[32mStarting external services ... 
+[m[2m2026-11-03 22:57:56.727+0000[m[2m | [m[2mmain[m[2m | [m[32mINFO [m[2m | [m[2mMetricsHttpService[m[2m | [m[32mStarting metrics http service on 0.0.0.0:9001
+[m[2m2026-11-03 22:57:56.749+0000[m[2m | [m[2mmain[m[2m | [m[32mINFO [m[2m | [m[2mJsonRpcHttpService[m[2m | [m[32mStarting JSON-RPC service on 0.0.0.0:8545
+[m[2m2026-11-03 22:57:56.824+0000[m[2m | [m[2mvert.x-eventloop-thread-1[m[2m | [m[32mINFO [m[2m | [m[2mJsonRpcHttpService[m[2m | [m[32mJSON-RPC service started and listening on 0.0.0.0:8545
+[m[2m2026-11-03 22:57:56.824+0000[m[2m | [m[2mmain[m[2m | [m[32mINFO [m[2m | [m[2mEngineJsonRpcService[m[2m | [m[32mStarting JSON-RPC service on 0.0.0.0:8551
+[m[2m2026-11-03 22:57:56.827+0000[m[2m | [m[2mvert.x-eventloop-thread-1[m[2m | [m[32mINFO [m[2m | [m[2mEngineJsonRpcService[m[2m | [m[32mJSON-RPC service started and listening on 0.0.0.0:8551
+[m[2m2026-11-03 22:57:56.828+0000[m[2m | [m[2mmain[m[2m | [m[32mINFO [m[2m | [m[2mWebSocketService[m[2m | [m[32mStarting Websocket service on 0.0.0.0:8546
+[m[2m2026-11-03 22:57:56.830+0000[m[2m | [m[2mvert.x-eventloop-thread-1[m[2m | [m[32mINFO [m[2m | [m[2mWebSocketService[m[2m | [m[32mWebsocket service started and listening on 0.0.0.0:8546
+[m[2m2026-11-03 22:57:56.830+0000[m[2m | [m[2mmain[m[2m | [m[32mINFO [m[2m | [m[2mAutoTransactionLogBloomCachingService[m[2m | [m[32mStarting auto transaction log bloom caching service.
+[m[2m2026-11-03 22:57:56.831+0000[m[2m | [m[2mmain[m[2m | [m[32mINFO [m[2m | [m[2mLogBloomCacheMetadata[m[2m | [m[32mLookup cache metadata file in data directory: /data/besu/execution-data/caches
+[m[2m2026-11-03 22:57:56.842+0000[m[2m | [m[2mmain[m[2m | [m[32mINFO [m[2m | [m[2mRunner[m[2m | [m[32mStarting Ethereum main loop ... 
+[m[2m2026-11-03 22:57:56.842+0000[m[2m | [m[2mmain[m[2m | [m[32mINFO [m[2m | [m[2mDockerNatManager[m[2m | [m[32mStarting docker NAT manager.
+[m[2m2026-11-03 22:57:56.912+0000[m[2m | [m[2mmain[m[2m | [m[32mINFO [m[2m | [m[2mNetworkRunner[m[2m | [m[32mStarting Network.
+[m[2m2026-11-03 22:57:56.919+0000[m[2m | [m[2mnioEventLoopGroup-2-1[m[2m | [m[32mINFO [m[2m | [m[2mRlpxAgent[m[2m | [m[32mP2P RLPx agent started and listening on /[0:0:0:0:0:0:0:0]:30303.
+[m[2m2026-11-03 22:57:56.919+0000[m[2m | [m[2mmain[m[2m | [m[32mINFO [m[2m | [m[2mCompositePeerDiscoveryAgent[m[2m | [m[32mStarting discovery on shared UDP socket (V5 only)
+[m[2m2026-11-03 22:57:56.934+0000[m[2m | [m[2mdisc-shared-eventloop[m[2m | [m[32mINFO [m[2m | [m[2mPeerDiscoveryAgentV5[m[2m | [m[32mStarting DiscV5 peer discovery agent ...
+[m[2m2026-11-03 22:57:56.966+0000[m[2m | [m[2mdisc-shared-eventloop[m[2m | [m[32mINFO [m[2m | [m[2mNodeRecordManager[m[2m | [m[32mWriting node record to disk. NodeRecord{seq=1, publicKey=0x03069d767922d4bd55ca8df59f0b003c0163432a91f7a02a41893db783699ca0fc, udpAddress=Optional[/172.16.0.10:30303], tcpAddress=Optional[/172.16.0.10:30303], quicAddress=Optional.empty, udp6Address=Optional.empty, tcp6Address=Optional.empty, quic6Address=Optional.empty, asBase64=-Je4QFMGij6hx29X45KcTaiEZLukK4Gc8zrAZsjTPM9Q8vcGLde9BBL7vD7Jo5be4ZMyeikCTIsbTQn-DlKdXtASkK4Bg2V0aMfGhHo8zMuAgmlkgnY0gmlwhKwQAAqJc2VjcDI1NmsxoQMGnXZ5ItS9VcqN9Z8LADwBY0MqkfegKkGJPbeDaZyg_IN0Y3CCdl-DdWRwgnZf, nodeId=0x396d4c1d159bd46167d522755a7b6e173ebd88c06493f1454f2ec89af9af8222, customFields={tcp=30303, udp=30303, eth=[[0x7a3ccccb, 0x]], id=V4, ip=0xac10000a, secp256k1=0x03069d767922d4bd55ca8df59f0b003c0163432a91f7a02a41893db783699ca0fc}}
+[m[2m2026-11-03 22:57:57.024+0000[m[2m | [m[2mdisc-shared-eventloop[m[2m | [m[32mINFO [m[2m | [m[2mNettyDiscoveryClientImpl[m[2m | [m[32mUDP discovery client started
+[m[2m2026-11-03 22:57:57.027+0000[m[2m | [m[2mdisc-shared-eventloop[m[2m | [m[32mINFO [m[2m | [m[2mPeerDiscoveryAgentV5[m[2m | [m[32mP2P DiscV5 peer discovery agent started and listening on 30303
+[m[2m2026-11-03 22:57:57.029+0000[m[2m | [m[2mmain[m[2m | [m[32mINFO [m[2m | [m[2mDefaultP2PNetwork[m[2m | [m[32mEnode URL enode://069d767922d4bd55ca8df59f0b003c0163432a91f7a02a41893db783699ca0fc29c99b97ff9e26d5a4bbf1ab36f1264b7375a11cde02d9d565b66b7c888dd36d@172.16.0.10:30303
+[m[2m2026-11-03 22:57:57.030+0000[m[2m | [m[2mmain[m[2m | [m[32mINFO [m[2m | [m[2mDefaultP2PNetwork[m[2m | [m[32mENR URL enr:-Je4QFMGij6hx29X45KcTaiEZLukK4Gc8zrAZsjTPM9Q8vcGLde9BBL7vD7Jo5be4ZMyeikCTIsbTQn-DlKdXtASkK4Bg2V0aMfGhHo8zMuAgmlkgnY0gmlwhKwQAAqJc2VjcDI1NmsxoQMGnXZ5ItS9VcqN9Z8LADwBY0MqkfegKkGJPbeDaZyg_IN0Y3CCdl-DdWRwgnZf
+[m[2m2026-11-03 22:57:57.031+0000[m[2m | [m[2mmain[m[2m | [m[32mINFO [m[2m | [m[2mDefaultP2PNetwork[m[2m | [m[32mNode address 0x5a7b6e173ebd88c06493f1454f2ec89af9af8222
+[m[2m2026-11-03 22:57:57.039+0000[m[2m | [m[2mmain[m[2m | [m[32mINFO [m[2m | [m[2mNetworkRunner[m[2m | [m[32mSupported capabilities: [eth/68, eth/69, eth/70, eth/71], [snap/1]
+[m[2m2026-11-03 22:57:57.039+0000[m[2m | [m[2mmain[m[2m | [m[32mINFO [m[2m | [m[2mDefaultSynchronizer[m[2m | [m[32mStarting synchronizer.
+[m[2m2026-11-03 22:57:57.043+0000[m[2m | [m[2mmain[m[2m | [m[32mINFO [m[2m | [m[2mTransactionPoolFactory[m[2m | [m[32mEnabling transaction handling following initial sync
+[m[2m2026-11-03 22:57:57.050+0000[m[2m | [m[2mmain[m[2m | [m[32mINFO [m[2m | [m[2mDefaultSynchronizer[m[2m | [m[32mStopping block propagation.
+[m[2m2026-11-03 22:57:57.051+0000[m[2m | [m[2mmain[m[2m | [m[32mINFO [m[2m | [m[2mDefaultSynchronizer[m[2m | [m[32mStopping the pruner.
+[m[2m2026-11-03 22:57:57.051+0000[m[2m | [m[2mmain[m[2m | [m[32mINFO [m[2m | [m[2mRunner[m[2m | [m[32mEthereum main loop is up.
+[m[2m2026-11-03 22:58:25.180+0000[m[2m | [m[2mengine-ordered-execution-0[m[2m | [m[32mINFO [m[2m | [m[2mMergeCoordinator[m[2m | [m[32mStart building proposals for block 1 identified by 0x19f7262c0a482c11
+[m[2m2026-11-03 22:58:25.184+0000[m[2m | [m[2mengine-ordered-execution-0[m[2m | [m[32mINFO [m[2m | [m[2mEngineForkchoiceUpdatedV3[m[2m | [m[32mFCU(VALID) | head: 7790a.....14e4c | safe: 00000.....00000 | finalized: 00000.....00000
+[m[2m2026-11-03 22:58:25.209+0000[m[2m | [m[2mvert.x-worker-thread-4[m[2m | [m[32mINFO [m[2m | [m[2mEngineGetPayloadV5[m[2m | [m[32mProduced #1  (f25ad.....d0944)|    0 tx | 0 ws | 0 (0.0%) gas in 0.131s | Timing(started at 2026-11-03T22:58:25.075867055Z, duplicateWorldState=5ms, preTxsSelection=35ms, txsSelection=11ms, selectedTxsEvaluation=0ms, blockAssembled=20ms, awaitingRetrieval=58ms) | PayloadId 0x19f7262c0a482c11
+[m[2m2026-11-03 22:58:25.297+0000[m[2m | [m[2mengine-ordered-execution-0[m[2m | [m[32mINFO [m[2m | [m[2mEngineNewPayloadV4[m[2m | [m[32mImported #1  (f25ad.....d0944)|    0 tx|  0 ws|  0 blobs| 875.00 mwei bfee|           0 (  0.0%) gas used| 10.3ms exec|   0.00 Mgas/s|  0 peers
+[m[2m2026-11-03 22:58:25.371+0000[m[2m | [m[2mengine-ordered-execution-0[m[2m | [m[32mINFO [m[2m | [m[2mEngineForkchoiceUpdatedV4[m[2m | [m[32mFCU(VALID) | head: f25ad.....d0944 | safe: 00000.....00000 | finalized: 00000.....00000
+[m[2m2026-11-03 22:58:33.026+0000[m[2m | [m[2mengine-ordered-execution-0[m[2m | [m[32mINFO [m[2m | [m[2mMergeCoordinator[m[2m | [m[32mStart building proposals for block 2 identified by 0x476c642ec425341d
+[m[2m2026-11-03 22:58:33.026+0000[m[2m | [m[2mengine-ordered-execution-0[m[2m | [m[32mINFO [m[2m | [m[2mEngineForkchoiceUpdatedV3[m[2m | [m[32mFCU(VALID) | head: f25ad.....d0944 | safe: 00000.....00000 | finalized: 00000.....00000
+[m[2m2026-11-03 22:58:36.506+0000[m[2m | [m[2mengine-ordered-execution-0[m[2m | [m[32mINFO [m[2m | [m[2mEngineForkchoiceUpdatedV3[m[2m | [m[32mFCU(VALID) | head: f25ad.....d0944 | safe: 00000.....00000 | finalized: 00000.....00000
+[m[2m2026-11-03 22:58:37.008+0000[m[2m | [m[2mvert.x-worker-thread-11[m[2m | [m[32mINFO [m[2m | [m[2mEngineGetPayloadV5[m[2m | [m[32mProduced #2  (87b8d.....1f89b)|    0 tx | 0 ws | 0 (0.0%) gas in 3.995s | Timing(started at 2026-11-03T22:58:33.012077031Z, duplicateWorldState=0ms, preTxsSelection=6ms, txsSelection=0ms, selectedTxsEvaluation=0ms, blockAssembled=2ms, awaitingRetrieval=3986ms) | PayloadId 0x476c642ec425341d
+[m[2m2026-11-03 22:58:37.035+0000[m[2m | [m[2mengine-ordered-execution-0[m[2m | [m[32mINFO [m[2m | [m[2mEngineNewPayloadV4[m[2m | [m[32mImported #2  (87b8d.....1f89b)|    0 tx|  0 ws|  0 blobs| 765.63 mwei bfee|           0 (  0.0%) gas used| 4.7ms exec|   0.00 Mgas/s|  0 peers
+[m[2m2026-11-03 22:58:37.059+0000[m[2m | [m[2mengine-ordered-execution-0[m[2m | [m[32mINFO [m[2m | [m[2mEngineForkchoiceUpdatedV4[m[2m | [m[32mFCU(VALID) | head: 87b8d.....1f89b | safe: 00000.....00000 | finalized: 00000.....00000
+[m[2m2026-11-03 22:58:45.338+0000[m[2m | [m[2mengine-ordered-execution-0[m[2m | [m[32mINFO [m[2m | [m[2mMergeCoordinator[m[2m | [m[32mStart building proposals for block 3 identified by 0x0c110b95e7524dd7
+[m[2m2026-11-03 22:58:45.338+0000[m[2m | [m[2mengine-ordered-execution-0[m[2m | [m[32mINFO [m[2m | [m[2mEngineForkchoiceUpdatedV3[m[2m | [m[32mFCU(VALID) | head: 87b8d.....1f89b | safe: 00000.....00000 | finalized: 00000.....00000
+[m[2m2026-11-03 22:58:48.525+0000[m[2m | [m[2mengine-ordered-execution-0[m[2m | [m[32mINFO [m[2m | [m[2mEngineForkchoiceUpdatedV3[m[2m | [m[32mFCU(VALID) | head: 87b8d.....1f89b | safe: 00000.....00000 | finalized: 00000.....00000
+[m[2m2026-11-03 22:58:49.099+0000[m[2m | [m[2mvert.x-worker-thread-15[m[2m | [m[32mINFO [m[2m | [m[2mEngineGetPayloadV5[m[2m | [m[32mProduced #3  (92120.....e5d26)|    0 tx | 0 ws | 0 (0.0%) gas in 4.049s | Timing(started at 2026-11-03T22:58:45.050420113Z, duplicateWorldState=0ms, preTxsSelection=22ms, txsSelection=0ms, selectedTxsEvaluation=0ms, blockAssembled=259ms, awaitingRetrieval=3766ms) | PayloadId 0x0c110b95e7524dd7
+[m[2m2026-11-03 22:58:49.714+0000[m[2m | [m[2mengine-ordered-execution-0[m[2m | [m[32mINFO [m[2m | [m[2mEngineNewPayloadV4[m[2m | [m[32mImported #3  (92120.....e5d26)|    0 tx|  0 ws|  0 blobs| 669.92 mwei bfee|           0 (  0.0%) gas used| 516.5ms exec|   0.00 Mgas/s| 15 peers
+[m[2m2026-11-03 22:58:50.676+0000[m[2m | [m[2mengine-ordered-execution-0[m[2m | [m[32mINFO [m[2m | [m[2mEngineForkchoiceUpdatedV4[m[2m | [m[32mFCU(VALID) | head: 92120.....e5d26 | safe: 00000.....00000 | finalized: 00000.....00000
+[m[2m2026-11-03 22:58:57.068+0000[m[2m | [m[2mvertx-blocked-thread-checker[m[2m | [m[33mWARN [m[2m | [m[2mBlockedThreadChecker[m[2m | [m[33mThread vert.x-eventloop-thread-1 has been blocked for 2537 ms, time limit is 2000 ms
+[m[2m2026-11-03 22:59:02.350+0000[m[2m | [m[2mvertx-blocked-thread-checker[m[2m | [m[33mWARN [m[2m | [m[2mBlockedThreadChecker[m[2m | [m[33mThread vert.x-eventloop-thread-1 has been blocked for 2421 ms, time limit is 2000 ms
+[m[2m2026-11-03 22:59:02.359+0000[m[2m | [m[2mvertx-blocked-thread-checker[m[2m | [m[33mWARN [m[2m | [m[2mBlockedThreadChecker[m[2m | [m[33mThread vert.x-eventloop-thread-1 has been blocked for 2430 ms, time limit is 2000 ms
+[m[2m2026-11-03 22:59:04.792+0000[m[2m | [m[2mvertx-blocked-thread-checker[m[2m | [m[33mWARN [m[2m | [m[2mBlockedThreadChecker[m[2m | [m[33mThread vert.x-eventloop-thread-1 has been blocked for 4863 ms, time limit is 2000 ms
+[m[2m2026-11-03 22:59:07.514+0000[m[2m | [m[2mvertx-blocked-thread-checker[m[2m | [m[33mWARN [m[2m | [m[2mBlockedThreadChecker[m[2m | [m[33mThread vert.x-eventloop-thread-1 has been blocked for 2613 ms, time limit is 2000 ms
+[m[2m2026-11-03 22:59:12.214+0000[m[2m | [m[2mvertx-blocked-thread-checker[m[2m | [m[33mWARN [m[2m | [m[2mBlockedThreadChecker[m[2m | [m[33mThread vert.x-eventloop-thread-1 has been blocked for 2314 ms, time limit is 2000 ms
+[m[2m2026-11-03 22:59:14.547+0000[m[2m | [m[2mvertx-blocked-thread-checker[m[2m | [m[33mWARN [m[2m | [m[2mBlockedThreadChecker[m[2m | [m[33mThread vert.x-eventloop-thread-1 has been blocked for 2315 ms, time limit is 2000 ms
+[m[2m2026-11-03 22:59:19.618+0000[m[2m | [m[2mengine-ordered-execution-0[m[2m | [m[32mINFO [m[2m | [m[2mMergeCoordinator[m[2m | [m[32mStart building proposals for block 4 identified by 0x79615d57e7bbea35
+[m[2m2026-11-03 22:59:21.910+0000[m[2m | [m[2mengine-ordered-execution-0[m[2m | [m[32mINFO [m[2m | [m[2mEngineForkchoiceUpdatedV3[m[2m | [m[32mFCU(VALID) | head: 92120.....e5d26 | safe: 00000.....00000 | finalized: 00000.....00000
+[m[2m2026-11-03 22:59:21.913+0000[m[2m | [m[2mvert.x-worker-thread-13[m[2m | [m[33mWARN [m[2m | [m[2mJsonRpcExecutorHandler[m[2m | [m[33mengine_forkchoiceUpdatedV3 - Connection closed before JSON-RPC response could be written
+[m[2m2026-11-03 22:59:26.552+0000[m[2m | [m[2mengine-ordered-execution-0[m[2m | [m[32mINFO [m[2m | [m[2mEngineForkchoiceUpdatedV3[m[2m | [m[32mFCU(VALID) | head: 92120.....e5d26 | safe: 00000.....00000 | finalized: 00000.....00000
+[m[2m2026-11-03 22:59:26.554+0000[m[2m | [m[2mengine-ordered-execution-0[m[2m | [m[32mINFO [m[2m | [m[2mEngineForkchoiceUpdatedV3[m[2m | [m[32mFCU(VALID) | head: 92120.....e5d26 | safe: 00000.....00000 | finalized: 00000.....00000
+[m[2m2026-11-03 22:59:31.385+0000[m[2m | [m[2mvert.x-worker-thread-11[m[2m | [m[33mWARN [m[2m | [m[2mJsonRpcExecutorHandler[m[2m | [m[33meth_syncing - Connection closed before JSON-RPC response could be written
+[m[2m2026-11-03 22:59:34.046+0000[m[2m | [m[2mprometheus-http-1-1[m[2m | [m[1;31mERROR[m[2m | [m[2mHttpExchangeAdapter[m[2m | [m[1;31mThe Prometheus metrics HTTPServer caught an Exception while trying to send the metrics response.
+java.io.IOException: Broken pipe
+	at java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:65)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:137)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:58)
+	at java.base/sun.nio.ch.SocketChannelImpl.implWrite(SocketChannelImpl.java:562)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:617)
+	at jdk.httpserver/sun.net.httpserver.Request$WriteStream.write(Request.java:421)
+	at java.base/java.io.BufferedOutputStream.write(BufferedOutputStream.java:183)
+	at jdk.httpserver/sun.net.httpserver.FixedLengthOutputStream.write(FixedLengthOutputStream.java:77)
+	at jdk.httpserver/sun.net.httpserver.PlaceholderOutputStream.write(ExchangeImpl.java:476)
+	at java.base/java.io.ByteArrayOutputStream.writeTo(ByteArrayOutputStream.java:163)
+	at io.prometheus.metrics.exporter.common.PrometheusScrapeHandler.handleRequest(PrometheusScrapeHandler.java:93)
+	at io.prometheus.metrics.exporter.httpserver.MetricsHandler.handle(MetricsHandler.java:33)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:98)
+	at jdk.httpserver/sun.net.httpserver.AuthFilter.doFilter(AuthFilter.java:65)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:101)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Exchange$LinkHandler.handle(ServerImpl.java:915)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:98)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Exchange.run(ServerImpl.java:891)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+	Suppressed: java.io.IOException: insufficient bytes written to stream
+		at jdk.httpserver/sun.net.httpserver.FixedLengthOutputStream.close(FixedLengthOutputStream.java:88)
+		at jdk.httpserver/sun.net.httpserver.PlaceholderOutputStream.close(ExchangeImpl.java:486)
+		at io.prometheus.metrics.exporter.common.PrometheusScrapeHandler.handleRequest(PrometheusScrapeHandler.java:92)
+		... 10 more
+[m[2m2026-11-03 22:59:34.053+0000[m[2m | [m[2mprometheus-http-1-5[m[2m | [m[1;31mERROR[m[2m | [m[2mHttpExchangeAdapter[m[2m | [m[1;31mThe Prometheus metrics HTTPServer caught an Exception while trying to send the metrics response.
+java.io.IOException: Broken pipe
+	at java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:65)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:137)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:58)
+	at java.base/sun.nio.ch.SocketChannelImpl.implWrite(SocketChannelImpl.java:562)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:617)
+	at jdk.httpserver/sun.net.httpserver.Request$WriteStream.write(Request.java:421)
+	at java.base/java.io.BufferedOutputStream.write(BufferedOutputStream.java:183)
+	at jdk.httpserver/sun.net.httpserver.FixedLengthOutputStream.write(FixedLengthOutputStream.java:77)
+	at jdk.httpserver/sun.net.httpserver.PlaceholderOutputStream.write(ExchangeImpl.java:476)
+	at java.base/java.io.ByteArrayOutputStream.writeTo(ByteArrayOutputStream.java:163)
+	at io.prometheus.metrics.exporter.common.PrometheusScrapeHandler.handleRequest(PrometheusScrapeHandler.java:93)
+	at io.prometheus.metrics.exporter.httpserver.MetricsHandler.handle(MetricsHandler.java:33)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:98)
+	at jdk.httpserver/sun.net.httpserver.AuthFilter.doFilter(AuthFilter.java:65)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:101)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Exchange$LinkHandler.handle(ServerImpl.java:915)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:98)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Exchange.run(ServerImpl.java:891)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+	Suppressed: java.io.IOException: insufficient bytes written to stream
+		at jdk.httpserver/sun.net.httpserver.FixedLengthOutputStream.close(FixedLengthOutputStream.java:88)
+		at jdk.httpserver/sun.net.httpserver.PlaceholderOutputStream.close(ExchangeImpl.java:486)
+		at io.prometheus.metrics.exporter.common.PrometheusScrapeHandler.handleRequest(PrometheusScrapeHandler.java:92)
+		... 10 more
+[m[2m2026-11-03 22:59:36.430+0000[m[2m | [m[2mprometheus-http-1-6[m[2m | [m[1;31mERROR[m[2m | [m[2mHttpExchangeAdapter[m[2m | [m[1;31mThe Prometheus metrics HTTPServer caught an Exception while trying to send the metrics response.
+java.io.IOException: Broken pipe
+	at java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:65)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:137)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:58)
+	at java.base/sun.nio.ch.SocketChannelImpl.implWrite(SocketChannelImpl.java:562)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:617)
+	at jdk.httpserver/sun.net.httpserver.Request$WriteStream.write(Request.java:421)
+	at java.base/java.io.BufferedOutputStream.write(BufferedOutputStream.java:183)
+	at jdk.httpserver/sun.net.httpserver.FixedLengthOutputStream.write(FixedLengthOutputStream.java:77)
+	at jdk.httpserver/sun.net.httpserver.PlaceholderOutputStream.write(ExchangeImpl.java:476)
+	at java.base/java.io.ByteArrayOutputStream.writeTo(ByteArrayOutputStream.java:163)
+	at io.prometheus.metrics.exporter.common.PrometheusScrapeHandler.handleRequest(PrometheusScrapeHandler.java:93)
+	at io.prometheus.metrics.exporter.httpserver.MetricsHandler.handle(MetricsHandler.java:33)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:98)
+	at jdk.httpserver/sun.net.httpserver.AuthFilter.doFilter(AuthFilter.java:65)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:101)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Exchange$LinkHandler.handle(ServerImpl.java:915)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:98)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Exchange.run(ServerImpl.java:891)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+	Suppressed: java.io.IOException: insufficient bytes written to stream
+		at jdk.httpserver/sun.net.httpserver.FixedLengthOutputStream.close(FixedLengthOutputStream.java:88)
+		at jdk.httpserver/sun.net.httpserver.PlaceholderOutputStream.close(ExchangeImpl.java:486)
+		at io.prometheus.metrics.exporter.common.PrometheusScrapeHandler.handleRequest(PrometheusScrapeHandler.java:92)
+		... 10 more
+[m[2m2026-11-03 22:59:43.576+0000[m[2m | [m[2mvertx-blocked-thread-checker[m[2m | [m[33mWARN [m[2m | [m[2mBlockedThreadChecker[m[2m | [m[33mThread vert.x-eventloop-thread-1 has been blocked for 2487 ms, time limit is 2000 ms
+[m[2m2026-11-03 22:59:43.577+0000[m[2m | [m[2mvertx-blocked-thread-checker[m[2m | [m[33mWARN [m[2m | [m[2mBlockedThreadChecker[m[2m | [m[33mThread vert.x-eventloop-thread-1 has been blocked for 2488 ms, time limit is 2000 ms
+[m[2m2026-11-03 22:59:38.790+0000[m[2m | [m[2mprometheus-http-1-7[m[2m | [m[1;31mERROR[m[2m | [m[2mHttpExchangeAdapter[m[2m | [m[1;31mThe Prometheus metrics HTTPServer caught an Exception while trying to send the metrics response.
+java.io.IOException: Broken pipe
+	at java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:65)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:137)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:58)
+	at java.base/sun.nio.ch.SocketChannelImpl.implWrite(SocketChannelImpl.java:562)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:617)
+	at jdk.httpserver/sun.net.httpserver.Request$WriteStream.write(Request.java:421)
+	at java.base/java.io.BufferedOutputStream.write(BufferedOutputStream.java:183)
+	at jdk.httpserver/sun.net.httpserver.FixedLengthOutputStream.write(FixedLengthOutputStream.java:77)
+	at jdk.httpserver/sun.net.httpserver.PlaceholderOutputStream.write(ExchangeImpl.java:476)
+	at java.base/java.io.ByteArrayOutputStream.writeTo(ByteArrayOutputStream.java:163)
+	at io.prometheus.metrics.exporter.common.PrometheusScrapeHandler.handleRequest(PrometheusScrapeHandler.java:93)
+	at io.prometheus.metrics.exporter.httpserver.MetricsHandler.handle(MetricsHandler.java:33)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:98)
+	at jdk.httpserver/sun.net.httpserver.AuthFilter.doFilter(AuthFilter.java:65)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:101)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Exchange$LinkHandler.handle(ServerImpl.java:915)
+	at jdk.httpserver/com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:98)
+	at jdk.httpserver/sun.net.httpserver.ServerImpl$Exchange.run(ServerImpl.java:891)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+	Suppressed: java.io.IOException: insufficient bytes written to stream
+		at jdk.httpserver/sun.net.httpserver.FixedLengthOutputStream.close(FixedLengthOutputStream.java:88)
+		at jdk.httpserver/sun.net.httpserver.PlaceholderOutputStream.close(ExchangeImpl.java:486)
+		at io.prometheus.metrics.exporter.common.PrometheusScrapeHandler.handleRequest(PrometheusScrapeHandler.java:92)
+		... 10 more
+[m[2m2026-11-03 22:59:48.519+0000[m[2m | [m[2mvertx-blocked-thread-checker[m[2m | [m[33mWARN [m[2m | [m[2mBlockedThreadChecker[m[2m | [m[33mThread vert.x-eventloop-thread-1 has been blocked for 2599 ms, time limit is 2000 ms
+[m[2m2026-11-03 22:59:50.868+0000[m[2m | [m[2mvertx-blocked-thread-checker[m[2m | [m[33mWARN [m[2m | [m[2mBlockedThreadChecker[m[2m | [m[33mThread vert.x-eventloop-thread-1 has been blocked for 4948 ms, time limit is 2000 ms
+[m[2m2026-11-03 22:59:53.341+0000[m[2m | [m[2mvertx-blocked-thread-checker[m[2m | [m[33mWARN [m[2m | [m[2mBlockedThreadChecker[m[2m | [m[33mThread vert.x-eventloop-thread-1 has been blocked for 2466 ms, time limit is 2000 ms
+[m[2m2026-11-03 22:59:55.802+0000[m[2m | [m[2mvertx-blocked-thread-checker[m[2m | [m[33mWARN [m[2m | [m[2mBlockedThreadChecker[m[2m | [m[33mThread vert.x-eventloop-thread-1 has been blocked for 2436 ms, time limit is 2000 ms
+[m[2m2026-11-03 23:00:03.128+0000[m[2m | [m[2mvertx-blocked-thread-checker[m[2m | [m[33mWARN [m[2m | [m[2mBlockedThreadChecker[m[2m | [m[33mThread vert.x-eventloop-thread-1 has been blocked for 2375 ms, time limit is 2000 ms
+[m[2m2026-11-03 23:00:08.008+0000[m[2m | [m[2mvertx-blocked-thread-checker[m[2m | [m[33mWARN [m[2m | [m[2mBlockedThreadChecker[m[2m | [m[33mThread vert.x-eventloop-thread-1 has been blocked for 4866 ms, time limit is 2000 ms
+[mTerminating due to java.lang.OutOfMemoryError: Java heap space

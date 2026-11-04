@@ -1,0 +1,19 @@
+participants:
+  - el_type: besu
+    el_image: hyperledger/besu@sha256:3d6ac0368d449c13c4ba075acac90d6b96afa5b3113295385d88c4d5122c8808
+    cl_type: lighthouse
+    cl_image: sigp/lighthouse@sha256:05b5068268ea3fbd64389309d1d7c15b8f18a53f28d0886f098316302f4cdb41
+    validator_count: 128
+
+network_params:
+  network_id: "315179"
+  seconds_per_slot: 12
+  preset: "mainnet"
+  fulu_fork_epoch: 0
+  bpo_1_epoch: 0
+  bpo_1_max_blobs: 21
+  bpo_1_target_blobs: 14
+
+global_log_level: info
+snooper_enabled: false
+additional_services: []

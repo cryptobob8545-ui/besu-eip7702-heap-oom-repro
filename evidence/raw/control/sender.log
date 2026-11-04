@@ -1,0 +1,14 @@
+=== RUN   TestFEFS122BesuPooledLiveRLPx
+    fef_s122_besu_pooled_live_rlpx_test.go:54: startUTC=2026-11-03T22:52:49.265661178Z
+    fef_s122_besu_pooled_live_rlpx_test.go:105: authorizations=1 typedBytesEach=63 firstTxHash=0x247aad80ab6cf202fe7246c74e9c1687728174bffacf988e01fa8a0ecc6d05df
+    fef_s122_besu_pooled_live_rlpx_test.go:172: active-peer gate passed before payload utc=2026-11-03T22:52:49.937965605Z count=15
+    fef_s122_besu_pooled_live_rlpx_test.go:199: sent requested responses utc=2026-11-03T22:52:49.939196072Z peers=15 rlpBytesEach=70 elapsed=1.153193ms
+    fef_s122_besu_pooled_live_rlpx_test.go:275: sent requested response wave=2 utc=2026-11-03T22:52:49.972963881Z peers=15 elapsed=898.763µs
+    fef_s122_besu_pooled_live_rlpx_test.go:275: sent requested response wave=3 utc=2026-11-03T22:52:50.427914821Z peers=15 elapsed=785.763µs
+    fef_s122_besu_pooled_live_rlpx_test.go:275: sent requested response wave=4 utc=2026-11-03T22:52:50.927752928Z peers=15 elapsed=663.339µs
+    fef_s122_besu_pooled_live_rlpx_test.go:275: sent requested response wave=5 utc=2026-11-03T22:52:51.428646153Z peers=15 elapsed=833.652µs
+    fef_s122_besu_pooled_live_rlpx_test.go:275: sent requested response wave=6 utc=2026-11-03T22:52:51.928419202Z peers=15 elapsed=602.941µs
+    fef_s122_besu_pooled_live_rlpx_test.go:275: sent requested response wave=7 utc=2026-11-03T22:52:52.428300095Z peers=15 elapsed=312.373µs
+    fef_s122_besu_pooled_live_rlpx_test.go:309: connections closed by target=0 timed out locally=15 total=15
+--- PASS: TestFEFS122BesuPooledLiveRLPx (6.92s)
+PASS

@@ -1,0 +1,9 @@
+{
+  "state": {
+    "Status": "exited",
+    "ExitCode": 3,
+    "OOMKilled": false,
+    "FinishedAt": "2026-11-03T23:00:28.995940201Z"
+  },
+  "docker_memory_limit": 0
+}
